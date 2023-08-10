@@ -28,6 +28,7 @@ main {
     flex-wrap: nowrap;
     flex-direction: column;
     background-color: rgba(0, 0, 0, 0.7);
+    background: linear-gradient(45deg, rgba(10,6,80,0.7) 0%, rgba(66,6,71,1) 100%);
     width: 60%;
     align-items: center;
     padding: 25px;
@@ -72,14 +73,14 @@ main {
 }
 
 .izquierda a {
-    background-color: blueviolet;
+    background-color: rgb(255, 255, 255);
     padding: 5px 20px;
     border-radius: 7px;
     width: fit-content;
-    color: white;
+    color: rgb(0, 0, 0);
     font-style: italic;
     text-decoration: none;
-    border: solid 1px white;
+    border: solid 3px rgb(0, 0, 0);
     font-size: 18px;
     transform: scale(1);
     transition: all ease-in-out 200ms 0s;
